@@ -7,6 +7,6 @@
 # 📊 GitHub Stats:
 ![Stats](https://github-readme-stats.vercel.app/api?username=Opiuthereal&theme=dark&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=60)
 ![Streak](https://nirzak-streak-stats.vercel.app/?user=Opiuthereal&theme=dark&hide_border=false&cache_seconds=60)
-![Stats](https://github-readme-stats.vercel.app/api?username=Opiuthereal&theme=dark&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=60)
+![languages](https://github-readme-stats.vercel.app/api/top-langs/?username={GITHUB_USERNAME}&theme=dark&hide_border=false&langs_count=20&layout=compact&cache_seconds=60)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) and hand modified for some parts-->
