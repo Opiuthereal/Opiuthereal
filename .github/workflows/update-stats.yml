@@ -1,0 +1,37 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Exec each 6 hours
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.11.9'
+
+      - name: Install dependencies
+        run: |
+          pip install requests  # Installe les dépendances nécessaires (ici requests)
+
+      - name: Run update stats script
+        run: |
+          python update_stats.py  # Remplace 'update_stats.py' par le nom de ton script Python
+        env:
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN_CUSTOM }}  
+      
+      - name: Commit & push le nouveau README.md
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Mise à jour automatique du README avec les nouvelles stats"
+          git push
+
