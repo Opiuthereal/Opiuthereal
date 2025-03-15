@@ -1,5 +1,5 @@
-# 💫 About Me:
-🧠​ Computer science and design student at CY Tech / CY Ecole de Design<br>🎮 Passionate with vidéogames<br>🏋️‍♂️ I use this github to post little exercises I do in different languages<br>🧙 check my [itch.io](https://opiuthereal.itch.io/) profile where I train creating little games
+# 💫 About Me
+🧠​ Computer science and design student at CY Tech / CY Ecole de Design<br>🎮 Passionate with video games<br>🏋️‍♂️ I use this github to post little exercises I do in different languages<br>🧙 check my [itch.io](https://opiuthereal.itch.io/) profile where I train creating little games
 
 
 # 💻 Tech Stack:
